@@ -26,9 +26,11 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ],
+          "styles": [{
+            "input":"src/styles.css",
+            "inject":true,
+            "bundleName": "styles"
+          }],
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
